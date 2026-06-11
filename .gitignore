@@ -22,6 +22,11 @@ external_data/
 *.engine
 *.ckpt
 *.safetensors
+!weights/
+!weights/*.pt
+!weights/*.pth
+!weights/*.onnx
+!weights/*.engine
 
 # Training outputs and generated artifacts
 runs/

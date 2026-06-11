@@ -10,6 +10,7 @@ This is a source-only export of the training/model code from `D:\detr_Q3`.
 - Evaluation, aggregation, plotting, and dataset-preparation utilities.
 - Selected dataset config/list files needed by the launch scripts.
 - Third-party InternImage source code under `external_code/InternImage`; keep its upstream MIT license when redistributing.
+- Pretrained weights under `weights/` are tracked with Git LFS.
 
 ## Excluded
 
@@ -17,6 +18,7 @@ The export intentionally excludes generated or heavy artifacts:
 
 - Full datasets and image/label trees.
 - Model weights and checkpoints such as `.pt`, `.pth`, `.onnx`, and engine files.
+- Large training checkpoints are excluded; use GitHub Releases or a separate artifact store for full experiment checkpoints.
 - Training outputs, logs, predictions, formal result folders, and transfer packages.
 - Python caches, temporary folders, wheels, and local environment mirrors.
 
