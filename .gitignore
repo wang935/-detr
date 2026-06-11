@@ -1,0 +1,54 @@
+# Local environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Datasets and external bulky inputs
+data/**/images/
+data/**/labels/
+data/figlib/
+data/figlib_raw/
+external_data/
+
+# Model weights and exported models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.safetensors
+
+# Training outputs and generated artifacts
+runs/
+outputs/
+formal_results/
+preds/
+preds_stage3_yolo/
+pilot_outputs/
+pilot_images/
+pilot_images_dfire/
+work_dirs/
+checkpoints/
+transfer_packages/
+
+# Large/tabular experiment products
+*.log
+*.csv
+*.zip
+*.tar
+*.tgz
+*.gz
+*.7z
+*.rar
+
+# Local package/build noise
+wheels/
+tmp_mmcv/
+build/
+dist/
+*.egg-info/

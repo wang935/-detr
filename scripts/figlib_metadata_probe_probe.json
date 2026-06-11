@@ -1,0 +1,209 @@
+{
+  "created_utc": "2026-06-10T06:22:00.270870+00:00",
+  "source_urls": {
+    "index": "https://cdn.hpwren.ucsd.edu/HPWREN-FIgLib-Data/index.html",
+    "tar_index": "https://cdn.hpwren.ucsd.edu/HPWREN-FIgLib-Data/Tar/index.html"
+  },
+  "sequence_count": 503,
+  "tar_sequence_count": 504,
+  "sequence_count_vs_tar_count_note": "The sequence directory index and tar index are separate public listings; any 503/504 mismatch must be reconciled by the full manifest builder.",
+  "station_parse_method": "right-to-left station-direction-imager parser; still heuristic until full manifest audit",
+  "unique_station_count_estimate": 41,
+  "top_station_counts": [
+    [
+      "om",
+      58
+    ],
+    [
+      "rm",
+      47
+    ],
+    [
+      "lp",
+      45
+    ],
+    [
+      "hp",
+      35
+    ],
+    [
+      "pi",
+      32
+    ],
+    [
+      "smer",
+      26
+    ],
+    [
+      "sm",
+      26
+    ],
+    [
+      "wc",
+      25
+    ],
+    [
+      "bh",
+      24
+    ],
+    [
+      "bm",
+      17
+    ],
+    [
+      "mg",
+      14
+    ],
+    [
+      "ml",
+      13
+    ],
+    [
+      "bl",
+      11
+    ],
+    [
+      "sp",
+      11
+    ],
+    [
+      "mlo",
+      11
+    ],
+    [
+      "stgo",
+      11
+    ],
+    [
+      "tp",
+      10
+    ],
+    [
+      "lo",
+      9
+    ],
+    [
+      "wilson",
+      9
+    ],
+    [
+      "cp",
+      8
+    ]
+  ],
+  "year_counts": [
+    [
+      "2016",
+      14
+    ],
+    [
+      "2017",
+      41
+    ],
+    [
+      "2018",
+      66
+    ],
+    [
+      "2019",
+      91
+    ],
+    [
+      "2020",
+      92
+    ],
+    [
+      "2021",
+      13
+    ],
+    [
+      "2022",
+      23
+    ],
+    [
+      "2023",
+      36
+    ],
+    [
+      "2024",
+      69
+    ],
+    [
+      "2025",
+      50
+    ],
+    [
+      "2026",
+      8
+    ]
+  ],
+  "sampled_sequences_n": 3,
+  "sample_sequences": [
+    {
+      "sequence": "20160604_FIRE_rm-n-mobo-c",
+      "url": "https://cdn.hpwren.ucsd.edu/HPWREN-FIgLib-Data/20160604_FIRE_rm-n-mobo-c/index.html",
+      "jpg_count": 81,
+      "offset_min": -2400,
+      "offset_max": 2400,
+      "negative_frame_count": 40,
+      "nonnegative_frame_count": 41,
+      "valid_negative_frames_with_5min_exclusion": 36,
+      "realized_negative_minutes_with_5min_exclusion": 35.0,
+      "first_jpg_head": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "content_length": 715720,
+        "last_modified": "Sat, 07 Sep 2024 19:25:13 GMT",
+        "etag": "\"17938a1699d5741d0d0bc5f98c428a80\""
+      }
+    },
+    {
+      "sequence": "20170708_Whittier_syp-n-mobo-c",
+      "url": "https://cdn.hpwren.ucsd.edu/HPWREN-FIgLib-Data/20170708_Whittier_syp-n-mobo-c/index.html",
+      "jpg_count": 81,
+      "offset_min": -2400,
+      "offset_max": 2400,
+      "negative_frame_count": 40,
+      "nonnegative_frame_count": 41,
+      "valid_negative_frames_with_5min_exclusion": 36,
+      "realized_negative_minutes_with_5min_exclusion": 35.0,
+      "first_jpg_head": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "content_length": 810658,
+        "last_modified": "Sat, 07 Sep 2024 19:27:34 GMT",
+        "etag": "\"df9541eea3cb68c668e96b5d579f4684\""
+      }
+    },
+    {
+      "sequence": "20220210-EmeraldFire-marconi-w-mobo-c",
+      "url": "https://cdn.hpwren.ucsd.edu/HPWREN-FIgLib-Data/20220210-EmeraldFire-marconi-w-mobo-c/index.html",
+      "jpg_count": 81,
+      "offset_min": -2400,
+      "offset_max": 2400,
+      "negative_frame_count": 40,
+      "nonnegative_frame_count": 41,
+      "valid_negative_frames_with_5min_exclusion": 36,
+      "realized_negative_minutes_with_5min_exclusion": 35.0,
+      "first_jpg_head": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "content_length": 527834,
+        "last_modified": "Sat, 07 Sep 2024 19:54:43 GMT",
+        "etag": "\"b89deff4f5d93f24d9f408f8472bf2f1\""
+      }
+    }
+  ],
+  "tar_sample_head": {
+    "status": 200,
+    "content_type": "application/x-tar",
+    "content_length": 97335553,
+    "last_modified": "Sat, 07 Sep 2024 20:27:52 GMT",
+    "etag": "\"467dbdeb7296b3d3ec08548b35fc7e5f-12\""
+  },
+  "notes": [
+    "Directory metadata is public and no large image archive is downloaded.",
+    "Station parsing is heuristic because sequence names are semi-structured.",
+    "Realized negative camera-hours must be recomputed after event grouping and pre-onset exclusion are finalized."
+  ]
+}

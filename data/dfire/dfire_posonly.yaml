@@ -1,0 +1,6 @@
+path: D:\detr_Q3\data\dfire
+train: D:\detr_Q3\data\dfire\train_posonly.txt
+val: D:\detr_Q3\data\dfire\test.txt
+names:
+  0: smoke
+  1: fire

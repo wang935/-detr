@@ -1,0 +1,10 @@
+# D-Fire dataset for ultralytics-RTDETR
+# 2 classes: smoke, fire
+path: D:/fire/D-Fire
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: smoke
+  1: fire

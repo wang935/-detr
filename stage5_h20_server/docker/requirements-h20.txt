@@ -1,0 +1,12 @@
+numpy
+pyyaml
+matplotlib
+opencv-python-headless
+pillow
+tqdm
+requests
+scipy
+psutil
+py-cpuinfo
+pandas
+seaborn

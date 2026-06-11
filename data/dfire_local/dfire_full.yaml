@@ -1,0 +1,6 @@
+path: D:\detr_Q3\data\dfire_local
+train: D:\detr_Q3\data\dfire_local\train_full.txt
+val: D:\detr_Q3\data\dfire_local\test.txt
+names:
+  0: smoke
+  1: fire
